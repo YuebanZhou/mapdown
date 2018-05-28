@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #404a59;
+}
+body {
+  font-family: Exo, '-apple-system', 'Open Sans', HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  /* color: #333; */
+  height:100%;
+  color: #fff;
+}
+#text {
+  position: absolute;
+  top: 25px;
+  right: 50%;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: yellowgreen
+}
+#btn1 {
+  position: absolute;
+  top: 10px;
+  right: 300px;
+}
+#btn2 {
+  position: absolute;
+  top: 10px;
+  right: 170px;
+}
+#btn3 {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+#container {
+  display: none;
+  height: 100%;
+}

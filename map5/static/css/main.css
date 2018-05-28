@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #404a59;
+}
+body {
+  font-family: Exo, '-apple-system', 'Open Sans', HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  /* color: #333; */
+  height:100%;
+  color: #fff;
+}
+#text {
+  position: absolute;
+  top: 25px;
+  right: 50%;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: yellowgreen
+}
+#btn1 {
+  position: absolute;
+  top: 10px;
+  right: 300px;
+}
+#btn2 {
+  position: absolute;
+  top: 10px;
+  right: 170px;
+}
+#btn3 {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+#top {
+  position:absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+#top ul li {
+  list-style: none;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+#top ul li:hover {
+  background-color: #323C48
+}
+#top ul li span {
+  display: inline-block;
+  width: 80px;
+}
